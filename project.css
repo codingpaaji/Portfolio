@@ -231,3 +231,71 @@ body {
 .shadow.show {
   display: block;
 }
+@media (max-width: 1000px) {
+  .gallery .image {
+    width: calc(100% / 3);
+  }
+}
+@media (max-width: 800px) {
+  .gallery .image {
+    width: calc(100% / 2);
+  }
+}
+@media (max-width: 700px) {
+  .wrapper nav .items {
+    max-width: 600px;
+  }
+  nav .items span {
+    padding: 7px 15px;
+  }
+}
+@media (max-width: 500px) {
+  .wrapper {
+    margin: 30px auto;
+  }
+  .wrapper nav .items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav .items span {
+    margin: 5px;
+  }
+  .gallery .image {
+    width: 100%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  nav ul li a {
+    font-size: 20px;
+  }
+  nav ul li {
+    display: block;
+    margin-bottom: 5px;
+  }
+  ul {
+    margin-top: 30px;
+  }
+}
+.button {
+  background: linear-gradient(90deg, #fc56bf, #6e9cff);
+  border-radius: 10%;
+  width: 12vh;
+  height: 6vh;
+  margin-left: 3vh;
+  padding: 1.5vh;
+  padding-left: 1vh;
+  cursor: pointer;
+  box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.8s;
+}
