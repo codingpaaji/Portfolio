@@ -104,3 +104,111 @@ li:hover {
     opacity: 1;
   }
 }
+.html {
+  width: 90%;
+  animation: html 3s;
+}
+.CSS {
+  width: 90%;
+  animation: CSS 3s;
+}
+.Javascript {
+  width: 70%;
+  animation: Javascript 3s;
+}
+.PHP {
+  width: 60%;
+  animation: PHP 3s;
+}
+.Python {
+  width: 85%;
+  animation: Python 3s;
+}
+.C {
+  width: 90%;
+  animation: C 3s;
+}
+.React {
+  width: 90%;
+  animation: React 3s;
+}
+.MongoDB {
+  width: 70%;
+  animation: MongoDB 3s;
+}
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes CSS {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes Javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes PHP {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes Python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes C {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes React {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes MongoDb {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  nav ul li a {
+    font-size: 20px;
+  }
+  nav ul li {
+    display: block;
+    margin-bottom: 5px;
+  }
+  ul {
+    margin-top: 30px;
+  }
+}
